@@ -1,0 +1,21 @@
+{
+  "name": "wger",
+  "version": "2.6-alpha1",
+  "description": "Self hosted FLOSS fitness/workout and weight tracker",
+  "author": "wger team <hello@wger.de>",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "5.3.8",
+    "datatables.net-bs5": "^2.3.7",
+    "htmx.org": "^2.0.8",
+    "jquery": "^4.0.0"
+  },
+  "devDependencies": {
+    "@wger-project/react-components": "26.4.14"
+  },
+  "scripts": {
+    "build:css:sass": "sass wger/core/static/scss/main.scss wger/core/static/bootstrap-compiled.css"
+  },
+  "packageManager": "npm@10.5.0"
+}
